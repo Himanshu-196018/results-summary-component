@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  /* primary */
+  --light-red: hsl(0, 100%, 67%);
+  --bg-light-red: hsla(0, 100%, 67%, 0.1);
+  --orange-yellow: hsl(39, 100%, 56%);
+  --bg-orange-yellow: hsla(39, 100%, 56%, 0.1);
+  --green-teal: hsl(166, 100%, 37%);
+  --bg-green-teal: hsla(166, 100%, 37%, 0.1);
+  --cobalt-blue: hsl(234, 85%, 45%);
+  --bg-cobalt-blue: hsla(234, 85%, 45%, 0.1);
+
+  /* secondary */
+  --light-slate-blue: hsl(252, 100%, 67%);
+  --light-royal-blue: hsl(241, 81%, 54%);
+  --violet-blue: hsla(256, 72%, 46%, 1);
+  --persian-blue: hsla(241, 72%, 46%, 0);
+  --pale-blue: hsl(221, 100%, 96%);
+  --light-lavender: hsl(241, 100%, 89%);
+  --dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+/* setting default colors */
+.reaction {
+  color: var(--light-red);
+  background-color: var(--bg-light-red);
+}
+.memory {
+  color: var(--orange-yellow);
+  background-color: var(--bg-orange-yellow);
+}
+.verbal {
+  color: var(--green-teal);
+  background-color: var(--bg-green-teal);
+}
+.visual {
+  color: var(--cobalt-blue);
+  background-color: var(--bg-cobalt-blue);
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: var(--pale-blue);
+}
+
+/* main section of the page */
+main {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  background-color: white;
+}
